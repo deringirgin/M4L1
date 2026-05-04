@@ -4,12 +4,21 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
+<<<<<<< HEAD
     background: #0F172A;        /* izleme bölgesinin rengi */
   }
   
   body::-webkit-scrollbar-thumb {
     background-color: rgba(30, 41, 59, 0.4);    /* kaydırıcının rengi  */
     border-radius: 20px;       /* kaydırıcının yuvarlaklığı */
+=======
+    background: #476bd8;        /* izleyici bölgesinin rengi */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(53, 10, 174, 0.4);    /* kaydırma çubuğunun rengi */
+    border-radius: 20px;       /* kaydırma çubuğunun yuvarlaklığı */
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
     border: none;
   }
 
@@ -38,6 +47,10 @@ img {
 a {
     text-decoration: none;
     color: inherit;
+<<<<<<< HEAD
+=======
+    transition: 0.2s;
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
 }
 
 ul {
@@ -81,9 +94,15 @@ ul {
     width: 350px;
     height: 500px;
     transition: 0.2s;
+<<<<<<< HEAD
     background: rgba(30, 41, 59, 0.4);
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+=======
+    background: rgba(79, 150, 144, 0.779);
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(22, 9, 9, 0);
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
 
 }
 
@@ -96,7 +115,11 @@ ul {
 }
 
 .card__text {
+<<<<<<< HEAD
     border-top: 1px solid rgba(14, 165, 233, 1);
+=======
+    border-top: 1px solid rgb(186, 158, 56);
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
     width: inherit;
     display: flex;
     padding: 50px 0 20px;
@@ -130,7 +153,11 @@ ul {
 
 .card--creat:hover,
 .card:hover {
+<<<<<<< HEAD
     box-shadow: 0px 4px 10px rgba(14, 165, 233, 1);
+=======
+    box-shadow: 0px 4px 10px rgb(7, 240, 127);
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
 }
 
 .creat-form {
@@ -149,9 +176,15 @@ ul {
     gap: 30px;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     background: rgba(30, 41, 59, 0.4);
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+=======
+    background: rgba(37, 61, 100, 0.4);
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(45, 16, 16, 0.1);
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
 }
 
 .form__inputs {
@@ -171,7 +204,11 @@ ul {
     border-radius: 10px;
     padding: 10px;
     height: 30px;
+<<<<<<< HEAD
     color: #F8FAFC;
+=======
+    color: #9e9ed2;
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
     font: inherit;
     border: none;
     width: 94%;
@@ -192,7 +229,11 @@ ul {
 }
 
 .form__button {
+<<<<<<< HEAD
     border: 1px solid rgba(14, 165, 233, 1);
+=======
+    border: 1px solid #274af8;
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
     background: #0F172A;
     border-radius: 10px;
     color: rgba(14, 165, 233, 1);
@@ -206,7 +247,11 @@ ul {
 
 .form__button:hover {
     color: #F8FAFC;
+<<<<<<< HEAD
     background:  rgba(14, 165, 233, 1);
+=======
+    background:  rgb(123, 0, 255);
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
 }
 
 .main {
@@ -214,7 +259,11 @@ ul {
 }
 
 .main__block {
+<<<<<<< HEAD
     background: rgba(30, 41, 59, 0.4);
+=======
+    background: rgba(51, 119, 228, 0.758);
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px 80px;
@@ -250,6 +299,52 @@ ul {
 }
 
 .main__link:hover {
+<<<<<<< HEAD
     color: #F8FAFC;
     background:  rgba(14, 165, 233, 1);
 }
+=======
+    color: #82c1ff;
+    background:  rgba(14, 165, 233, 1);
+}
+
+
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 30%;
+    padding: 50px 30px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.login label {
+    width: 60%;
+}
+
+
+.reg__link {
+    height: fit-content;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.error {
+    font-size: 10px;
+    color: #fff;
+}
+
+.login__link:hover {
+    color: rgb(215, 14, 233);
+}
+>>>>>>> 3c24ef7e20d774beb873e460f866543e2ef77d72
